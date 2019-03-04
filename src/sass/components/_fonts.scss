@@ -1,0 +1,24 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
+
+@mixin f-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@mixin f-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin f-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+@mixin f-bold-slab {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+/* /Fonts */
